@@ -34,4 +34,13 @@ Follow the calculators prompts
 ### Screenshot
 
  ![](image.png)
+ 
+## Author
+
+Xolani Sithole
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
