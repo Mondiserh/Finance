@@ -10,7 +10,7 @@ print( "************************************************************************
     
 def get_investment(choose):
     deposit = int(input('Enter the amount you will like to deposit: '))
-    interest_rate = int(input('Enter the interest rate: '))
+    interest_rate = float(input('Enter the interest rate: '))
     period= int(input('Enter the period years of investing:  '))
     print('Choose Simple interest or compound interest')
     print('1- Simple interest')
@@ -42,7 +42,7 @@ def get_investment(choose):
         choice = int(input('Choice :'))
 def get_bond(choose):
     house_value= int(input("Enter Present value of the house: "))
-    interest_rate = int(input('Enter the interest rate: '))
+    interest_rate = float(input('Enter the interest rate: '))
     period= int(input('Enter the period months to repay the bond:  '))
     n= period * 12
     i=interest_rate/12002
