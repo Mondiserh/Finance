@@ -44,8 +44,8 @@ def get_bond(choose):
     house_value= int(input("Enter Present value of the house: "))
     interest_rate = float(input('Enter the interest rate: '))
     period= int(input('Enter the period months to repay the bond:  '))
-    n= period * 12
-    i=interest_rate/12002
+    n= period
+    i=interest_rate/1200
     P = house_value
     x = (i*P)/1 - math.pow ((1+i),(-n))
     total = round(x,2)
